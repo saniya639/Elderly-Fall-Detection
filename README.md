@@ -1,25 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+Elderly Fall Detection System
+Team Name
+Lifeline Innovators
 
-    <application
-        android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.Responix">
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+About the Project
+This project focuses on improving the safety of elderly people living alone.
+The system detects accidental falls using motion sensors and automatically sends an alert message with location details to family members or caregivers.
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
+The aim is to reduce response time during emergencies and provide quick medical assistance when required.
 
-</manifest>
+Main Idea
+
+When a fall occurs:
+
+Motion sensor detects sudden movement
+
+System verifies the fall condition
+
+Emergency alert is sent through GSM
+
+Live location is shared using GPS
+
+Status can be monitored using a mobile app and website
+
+Technologies Used
+
+Hardware:
+
+ESP8266 / ESP32
+
+MPU6050 Sensor
+
+GPS Module
+
+GSM Module
+
+Software:
+
+Arduino IDE
+
+Android Studio
+
+GitHub
